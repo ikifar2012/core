@@ -41,4 +41,5 @@ class IPPEntity(CoordinatorEntity):
             model=self.coordinator.data.info.model,
             name=self.coordinator.data.info.name,
             sw_version=self.coordinator.data.info.version,
+            ip_address=self.coordinator.data.info.ip_address,
         )
